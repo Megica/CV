@@ -1,0 +1,93 @@
+/***********************************************************DEFAULT*OBJEKTI****************************************************/ 
+body{
+    margin: 0px;
+    background-color: #FCF8E8;
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+h1{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+} 
+h2{
+    color: #6bb885;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    color: #94B49F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;    
+}
+p{
+    font-size: larger;
+    line-height: 2;
+}
+hr{
+    margin: 50px 20%;
+}
+a{
+    color: #6bb885;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+/***********************************************************KLASE**************************************************************/ 
+.top_container{
+    background-color: #ECB390;
+    padding: 300px 0px;
+    background-image: url("../slike/mountain-landscape.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid_container{
+    position: relative;
+    margin: 50px auto;
+}
+.bottom_container{
+    background-color: #ECB390;
+    padding: 50px 0 20px;
+
+}
+.profile{
+    width: 50%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.web-pht{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.video-png{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.btn{
+    color: #94B49F;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 22px;
+    background: #94B49F;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #6bb885;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #FCF8E8;
+  }
+/**********************************************ID-JEVI**************************************************************/
